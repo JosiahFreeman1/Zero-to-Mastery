@@ -1,0 +1,38 @@
+li {
+	list-style-type: square;
+}
+
+h2 {
+	color: black;
+}
+
+/*.boxmodel {
+	border: 5px solid red;
+	display: inline-block;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	margin: 0px 20px;*/
+
+p {
+	font-size: 20px;
+}
+
+span {
+	font-size: 5em;
+}
+
+div {
+	border: 5px solid red;
+	text-decoration: none;
+	padding-top: 5em;
+	position: none;
+}
+
+
+	/*you can also do padding: 10px 20px 10px 20px; 
+	it will automatically do the same as the padding-top, padding-right,
+	padding-bottom, padding-left because it's built into the browser to read that way*/
+}
+/*We are not using this CSS sheet right now*/

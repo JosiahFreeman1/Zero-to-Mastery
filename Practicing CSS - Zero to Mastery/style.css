@@ -1,0 +1,56 @@
+/*Selector {
+	Property: value;
+}*/
+
+body {
+	background-image: url(https://images.unsplash.com/photo-1495195129352-aeb325a55b65?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1055&q=80);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h2 {
+	color: #617D59;
+	text-align: center;
+	border: 2.5px solid rgba(134, 164, 124, 0.5);
+	cursor: pointer;
+}
+
+p {
+	color: #3A5531;
+	text-align: center;
+	line-height: 25px;
+	font-style: bold;
+	font-size: 120%;
+	font-family: 'Lobster';
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+	background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.123rf.com%2Fstock-photo%2Fspices_background.html&psig=AOvVaw3JS887ivBcu9bl2_iuVKh1&ust=1597076980991000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOjRrcHFjusCFQAAAAAdAAAAABAZ);
+}
+
+.webtext {
+	border: 5px dashed #617D59;	
+}
+
+.active {
+	color: red;
+}
+
+#stinkybooty {
+	background: rgba(0, 0, 255, 0.2);
+}
+
+p:hover {
+	color: black;
+}
+
+img {
+	float: left;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+}

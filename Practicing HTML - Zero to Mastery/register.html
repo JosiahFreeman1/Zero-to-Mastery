@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+</head>
+<body>
+	<form method="GET">
+	 <div>
+	  <label for="firstname">First Name:</label>
+	  <!--don't have to close label tag, but it's cleaner-->
+	   <input type="text" name="firstname" id="firstname" placeholder="John"><br>
+	    </div>
+	   <div>
+	  <label for="lastname">Last Name:</label>
+	 <input type="text" name="lastname" id="lastname" placeholder="Appleseed"><br>
+	</div>
+	 <div>
+	  <label for="email">Email:</label>
+	   <input type="email" name="required" id="email" required placeholder="JohnAppleseed@gmail.com"><br>
+	  </div>
+	 <div>
+	  <label for="password">Password:</label>
+	   <input type="pasword" name="password" id="password" minlength="5"><br>
+	  </div>
+	<div>
+		<label for="birthday">Birthday:</label>
+			<input type="date" name="birthday" id="birthday"><br>
+	</div>
+	 <div>
+		Gender:<br> 
+		<input type="radio" name="gender" value="Male">Male<br>
+		<input type="radio" name="gender" value="Female">Female<br>
+	</div>
+		
+		<input type="radio" name="gender" value="Other">Other<br>
+		Pets: <br>
+		<input type="checkbox" name="cat"> Cat<br>
+		<input type="checkbox" name="dog"> Dog<br>
+		Cars: <br>
+		<select name="cars">
+			<option value="volvo" name="volvo">Volvo</option>
+			<option value="Audi"name="Audi">Audi</option>
+		</select><br>
+		<input type="submit" value="Register!">
+		<input type="reset">
+	</form><hr>
+		<a href="index.html">Back to Index</a>
+</body>
+</html> 
+<!--  -->

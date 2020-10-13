@@ -1,0 +1,43 @@
+ // Create an object and an array which we will use in our facebook exercise. 
+
+var objectFacebook = {
+	first name: "Josiah",
+	last name: "Freeman",
+	email: "josiahfreeman75@gmail.com",
+	age: 26,
+};
+
+var arrayFacebook = ["Josiah", "Cooking", "Photos", "Memes"]
+
+// 1. Create an object that has properties "username" and "password". Fill those values in with strings.
+
+var objectFacebook = {
+	username: "Dirty Bird",
+	password: "dirtybirdslair",
+}
+
+// 2. Create an array which contains the object you have made above and name the array "database".
+
+var database = [
+		var objectFacebook = {
+			username: "Dirty Bird",
+			password: "dirtybirdslair",
+		},
+]
+
+// 3. Create an array called "newsfeed" which contains 3 objects with properties "username" and "timeline".
+
+var newsfeed = [
+	var object1 = {
+			username: "Henry",
+			timeline: "I love Facebook!",
+	},
+		var object1 = {
+			username: "Bob",
+			timeline: "Myspace was better.",
+	},
+		var object1 = {
+			username: "Julie",
+			timeline: "I miss Tom, XoXo<3",
+	},
+]
